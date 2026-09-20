@@ -6,7 +6,21 @@ A full-stack healthcare consultation assistant that turns a doctor's consultatio
 - clear follow-up actions for the doctor
 - a patient-friendly email draft
 
-The project started as a simple LLM web application and was progressively expanded with authentication, paid access, streaming responses, structured form input, backend validation, Docker containerisation and AWS deployment.
+The project started as a simple LLM web application and was progressively expanded with authentication, paid access, streaming responses, structured form input and backend validation. Docker containerisation and AWS deployment are the next stage of development.
+
+## Walkthrough
+
+![MediNotes AI Walkthrough](docs/screenshots/medinotes-ai-demo.gif)
+
+The walkthrough shows the current MediNotes AI flow:
+
+- Sign in to the application
+- Enter synthetic consultation notes
+- Generate a consultation summary
+- Generate follow-up actions for the doctor
+- Generate a patient-friendly email
+- Access the subscription-protected application
+
 
 > **Development Status**
 >
@@ -64,7 +78,11 @@ The application also includes user authentication and subscription-based access.
 - Clerk subscriptions
 - Protected premium access
 
-### Deployment and Infrastructure
+### Deployment
+
+- Vercel
+
+### Planned Infrastructure
 
 - Docker
 - Amazon ECR
@@ -72,7 +90,6 @@ The application also includes user authentication and subscription-based access.
 - AWS Lambda Web Adapter
 - Lambda Function URLs
 - Amazon CloudWatch
-- Vercel during the earlier development stages
 
 ---
 
