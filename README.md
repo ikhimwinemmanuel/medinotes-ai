@@ -93,36 +93,41 @@ The application also includes user authentication and subscription-based access.
 
 ---
 
-## How It Works
+## Project Structure
 
-```text
-User
-  |
-  v
-Next.js Consultation Form
-  |
-  | Patient name
-  | Visit date
-  | Consultation notes
-  | Clerk JWT
-  v
-FastAPI Backend
-  |
-  | Pydantic validation
-  | Authentication check
-  | Prompt construction
-  v
-OpenAI API
-  |
-  | Streaming response
-  v
-FastAPI
-  |
-  | Server-Sent Events
-  v
-Next.js Interface
-  |
-  v
-Medical summary
-Doctor action items
-Patient email draft
+```
+medinotes-ai/
+├── api/
+│   └── index.py
+│
+├── docs/
+│   └── screenshots/
+│       ├── 01-medinotes-ai-landing-page.png
+│       ├── 02-consultation-form-synthetic-data.png
+│       ├── 03-generated-consultation-summary.png
+│       ├── 04-doctor-actions-and-patient-email.png
+│       ├── 05-patient-email-output.png
+│       ├── 06-clerk-subscription-billing.png
+│       └── medinotes-ai-demo.gif
+│
+├── pages/
+│   ├── _app.tsx
+│   ├── _document.tsx
+│   ├── index.tsx
+│   └── product.tsx
+│
+├── public/
+│
+├── styles/
+│   └── globals.css
+│
+├── .gitignore
+├── next.config.ts
+├── package.json
+├── package-lock.json
+├── requirements.txt
+├── tsconfig.json
+└── README.md
+
+
+```
