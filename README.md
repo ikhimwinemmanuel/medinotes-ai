@@ -6,6 +6,8 @@ A full-stack healthcare consultation assistant that turns a doctor's consultatio
 - clear follow-up actions for the doctor
 - a patient-friendly email draft
 
+**Live Demo:** https://medinotes-ai.vercel.app
+
 The project started as a simple LLM web application and was progressively expanded with authentication, paid access, streaming responses, structured form input and backend validation. Docker containerisation and AWS deployment are the next stage of development.
 
 ## Walkthrough
